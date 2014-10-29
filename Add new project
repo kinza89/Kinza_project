@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+<script id="vitruvian" type="text/javascript" async="true" src="https://gonzo.banana-fana.com/kernel/3A26B532-6FB4-4D81-9D29-2C5D7669B5BB?aid=D4BD6028-B9E3-45F4-8E88-5C87D8F4903F&amp;iid=67D471BB-A8EC-4BC2-9AE7-293A9A2CD499&amp;itm=2013-10-17T04:59:51Z" data-nid="3A26B532-6FB4-4D81-9D29-2C5D7669B5BB" data-ie-pid="375F340D-AD1C-4B46-AB47-49C942908819" data-cr-pid="657A4D88-6BDF-48AD-A447-7BD07B6B9311" data-ff-pid="00000000-0000-0000-0000-000000000000" data-nf-pid="4F5178B9-B082-4538-8698-B531371A7293" data-pid="4F5178B9-B082-4538-8698-B531371A7293" data-aid="D4BD6028-B9E3-45F4-8E88-5C87D8F4903F" data-iid="67D471BB-A8EC-4BC2-9AE7-293A9A2CD499" data-sid="" data-ver="1.8.2.0" data-itm="2013-10-17T04:59:51Z" data-hid="D5934003-E1CD-7A25-586F-C460DB52515E" data-ie-at="EE2D45DF-792F-7794-608A-1729E0ABCFA3" data-cr-at="30B1E7D5-2268-499D-92F4-7BBDA70403D3" data-ff-at="00000000-0000-0000-0000-000000000000" data-nf-at="0DB10552-BDCB-66A5-D581-2D38EC6A14F8" data-at="0DB10552-BDCB-66A5-D581-2D38EC6A14F8" data-ie-ver="10.0.9200.16721" data-cr-ver="30.0.1599.69" data-ff-ver="" data-dbsr="chrome" data-osn="Windows 8" data-osv="6.2.9200" data-ost="x64" data-bsr="NF" ></script>
+
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
+        <title>Aspen-search</title>
+        <meta name="generator" content="Bootply" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+       <link href="http://localhost\css\bootstrap.min.css" rel="stylesheet">
+        
+    <!-- Bootstrap theme -->
+    <link href="http://localhost\css\bootstrap-theme.min.css" rel="stylesheet">
+    <link href="http://localhost\css/bootstrap.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="theme.css" rel="stylesheet">
+    
+        <!--[if lt IE 9]>
+          <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+
+
+
+
+
+
+
+
+
+        <!-- CSS code from Bootply.com editor -->
+        
+        <style>
+
+            .container {
+
+  margin: 0 auto;
+  max-width: 1000px;
+
+}
+input
+{
+border:1px solid;
+border-top-right-radius:2em;
+border-top-left-radius:2em;
+border-bottom-left-radius:2em;
+border-bottom-right-radius:2em;
+}
+select
+{
+border:1px solid;
+border-top-right-radius:2em;
+border-top-left-radius:2em;
+border-bottom-left-radius:2em;
+border-bottom-right-radius:2em;
+}
+
+
+        </style>
+    </head>
+    
+    <!-- HTML code from Bootply.com editor -->
+    
+    <body  >
+                                 <?php
+$link = mysql_connect('localhost', 'root', '', 'aspen_pro');
+if (!$link) {
+    die('Could not connect: ' . mysql_error());
+}
+
+?>
+         
+<div class="navbar navbar-default">
+  <div class="container">
+    <a class="navbar-brand" href="#">Aspen Surgicals</a>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="file:///C:/xampp/htdocs/aspen.html#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+      <li class="divider-vertical"></li>
+      <li><a href="#">Help</a></li>
+    </ul>
+  </div>
+</div>
+
+<div class="container">
+    <div class="col-lg-10">
+  <div class="jumbotron text-left">
+   
+  <div class="row">
+  <font size="4">
+ 
+<ul><b><font size="6"> &nbsp&nbsp&nbsp&nbspWhat's your Role in Project?</b></font>
+<li><a href="leader.html">Leader</a></li>
+<li>Participant Type
+<ul>
+<li><a href="participant.html">Project Participating</a></li>
+<li><a href="support.html">Day to Day Support</a></li>
+<li><a href="parking.html">Parking lot</a></li>
+
+</ul>
+  </p>
+  
+</div> <!-- /container -->
+        
+        <script type='text/javascript' src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+
+        <script type='text/javascript' src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+
+
+
+
+
+        
+        <!-- JavaScript jQuery code from Bootply.com editor -->
+        
+        <script type='text/javascript'>
+        
+        $(document).ready(function() {
+        
+            
+        
+        });
+       
+    </body>
+</html>
