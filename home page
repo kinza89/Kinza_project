@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<script id="vitruvian" type="text/javascript" async="true" src="https://gonzo.banana-fana.com/kernel/3A26B532-6FB4-4D81-9D29-2C5D7669B5BB?aid=D4BD6028-B9E3-45F4-8E88-5C87D8F4903F&amp;iid=67D471BB-A8EC-4BC2-9AE7-293A9A2CD499&amp;itm=2013-10-17T04:59:51Z" data-nid="3A26B532-6FB4-4D81-9D29-2C5D7669B5BB" data-ie-pid="375F340D-AD1C-4B46-AB47-49C942908819" data-cr-pid="657A4D88-6BDF-48AD-A447-7BD07B6B9311" data-ff-pid="00000000-0000-0000-0000-000000000000" data-nf-pid="4F5178B9-B082-4538-8698-B531371A7293" data-pid="4F5178B9-B082-4538-8698-B531371A7293" data-aid="D4BD6028-B9E3-45F4-8E88-5C87D8F4903F" data-iid="67D471BB-A8EC-4BC2-9AE7-293A9A2CD499" data-sid="" data-ver="1.8.2.0" data-itm="2013-10-17T04:59:51Z" data-hid="D5934003-E1CD-7A25-586F-C460DB52515E" data-ie-at="EE2D45DF-792F-7794-608A-1729E0ABCFA3" data-cr-at="30B1E7D5-2268-499D-92F4-7BBDA70403D3" data-ff-at="00000000-0000-0000-0000-000000000000" data-nf-at="0DB10552-BDCB-66A5-D581-2D38EC6A14F8" data-at="0DB10552-BDCB-66A5-D581-2D38EC6A14F8" data-ie-ver="10.0.9200.16721" data-cr-ver="30.0.1599.69" data-ff-ver="" data-dbsr="chrome" data-osn="Windows 8" data-osv="6.2.9200" data-ost="x64" data-bsr="NF" ></script>
+
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
+        <title>Aspen-search</title>
+        <meta name="generator" content="Bootply" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+       <link href="http://localhost\css\bootstrap.min.css" rel="stylesheet">
+        
+	    <!-- Bootstrap theme -->
+	    <link href="http://localhost\css\bootstrap-theme.min.css" rel="stylesheet">
+	    <link href="http://localhost\css/bootstrap.css" rel="stylesheet">
+	    <!-- Custom styles for this template -->
+	    <link href="theme.css" rel="stylesheet">
+        
+        <!--[if lt IE 9]>
+          <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+        <!-- CSS code from Bootply.com editor -->
+        
+        <style type="text/css">
+
+            .container {
+
+						  margin: 0 auto;
+						  max-width: 960px;
+						}
+		input
+		{
+		border:1px solid;
+		border-top-right-radius:1em;
+		border-top-left-radius:1em;
+		border-bottom-left-radius:1em;
+		border-bottom-right-radius:1em;
+		text-indent: 10px; 
+		}
+
+		select
+		{
+		  max-width: 960px;
+		border:1px solid;
+		border-top-right-radius:1em;
+		border-top-left-radius:1em;
+		border-bottom-left-radius:1em;
+		border-bottom-right-radius:1em;
+		}
+
+        </style>
+    </head>
+    
+    <!-- HTML code from Bootply.com editor -->
+    
+    <body  >
+                 
+
+		<div class="navbar navbar-default">
+		  <div class="container">
+		    <a class="navbar-brand" href="#">Aspen Surgicals</a>
+		    <ul class="nav navbar-nav">
+		      <li class="active"><a href="#">Home</a></li>
+		      <li><a href="#">About</a></li>
+		      <li><a href="#">Contact</a></li>
+		      <li class="divider-vertical"></li>
+		      <li><a href="#">Help</a></li>
+		    </ul>
+		  </div>
+		</div>
+
+		<div class="container">
+		    <div class="col-lg-10">
+		  <div class="jumbotron text-center">
+		    <a class="btn btn-large btn-success" href="addnewpro.html" target="ext">Add New Project</a>
+		  <a class="btn btn-large btn-success" href="viewall.php" href="partecho.php" target="ext">View All Projects</a>
+
+ <!-- HTML search code -->
+
+		<form method="post" action="search.php">
+			</p>
+			
+			<p>Project Keyword:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			<input type="text" name="Keyword"></p>
+
+			<p>Name of the Engineer:
+			<input type="text" name="Name"></p>
+					
+			<p>Role in the Project:&nbsp&nbsp&nbsp&nbsp&nbsp
+			<form action="">
+			<select name="Ptype">
+			<option value="">All</option>
+			<option value="Leading">Leading</option>
+			<option value="Participating">Participating</option>
+			<option value="Day to day support">Day to day support</option>
+			<option value="Parking lot">Parking lot</option> 
+			</select> </p>
+
+			<p>Project Status:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			<form action="">
+			<select name="Status">
+			<option value=""></option>
+			<option value="On Track">On Track&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</option>
+			<option value="Off Track">Off Track</option>
+			<option value="Caution">Caution</option>
+			<option value="Complete">Complete</option> 
+			<option value="On Hold">On Hold</option>
+			</select> </p>
+
+			<p>Project Type:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			<form action="">
+			<select name="Type">
+			<option value=""></option>
+			<option value="Value Add">Value Add</option>
+			<option value="Value Engineering">Value Engineering</option>
+			<option value="Quality/Enhancements">Quality/Enhancements</option>
+			<option value="Inflation">Inflation</option> 
+			<option value="Negotiations">Negotiations</option>
+			<option value="Carry Over">Carry Over</option>
+			<option value="Transfers">Transfers</option>
+			</select> </p>
+		<br>
+			<input type="submit" />
+
+		</form>
+
+	</body>
+</html>
